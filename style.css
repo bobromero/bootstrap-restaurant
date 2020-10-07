@@ -437,7 +437,7 @@ body {
 .btn{
     font-weight: 700;
     font-size: 2rem;
-    border-radius: 300px;
+    border-radius: 5rem;
     color: white;
 }
 
@@ -484,17 +484,13 @@ body {
     width: 100%;
 }
 .padding-bottom{
-    height: 20rem;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
 }
 .padding-top{
     height: 20rem;
     padding-top: 10rem;
 }
-.padding-top{
-    height: 20rem;
-    padding-top: 10rem;
-}
+
 #main-picture div.padding-top{
     height: 20rem;
     padding-top: 2rem ;
