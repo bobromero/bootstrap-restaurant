@@ -374,6 +374,9 @@ body {
     #reservations .padding-top{
         padding-top: 0rem;
     }
+    #Main-picture .padding-top{
+        padding-top: 0rem;
+    }
 }
 
 
@@ -412,8 +415,10 @@ body {
     padding: 0;
 }
 .Main-picture{
+    max-width: 1000rem;
+    max-height: 1000rem;
+    height: 100%;
     width: 100%;
-    height: 100vh;
     background: linear-gradient(to bottom, rgba(66, 68, 92, 0.74) 0%, rgba(92, 77, 66, 0.8) 100%), url("backgroundBlurred.png");
     background-position: center top;
     background-size:cover;
@@ -491,14 +496,7 @@ body {
     padding-top: 10rem;
 }
 
-#main-picture div.padding-top{
-    height: 20rem;
-    padding-top: 2rem ;
-}
-#reservations .padding-top{
-    height: 20rem;
-    padding-top: 5rem;
-}
+
 .large-hidden{
     display: none;
 }
