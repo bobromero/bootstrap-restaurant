@@ -574,7 +574,7 @@ hr .sub-divider{
 }
 .icon-text{
     font-size: 1.5rem;
-    font-weight: 10000;
+    
 }
 .icon-color {
     color: #f4623a !important;
@@ -593,3 +593,9 @@ overflow: hidden;
 vertical-align: middle;
 }
 
+.padding{
+    padding: 10rem;
+}
+.bold {
+    font-weight: bold;
+}
