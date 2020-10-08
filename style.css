@@ -374,16 +374,26 @@ body {
     #reservations .padding-top{
         padding-top: 0rem;
     }
-    #Main-picture .padding-top{
-        padding-top: 0rem;
+}
+@media (min-width: 321px) {  
+    #MainPicture .padding-top{
+        padding-top: 25rem;
+    }
+    #MainPicture .padding-bottom{
+        padding-bottom: 25rem;
     }
 }
 
-
-@media (min-width: 544px) {  
+@media (min-width: 540px) {  
     .title {
         font-size:5rem;
-    } 
+    }
+    #MainPicture .padding-top{
+        padding-top: 30rem;
+    }
+    #MainPicture .padding-bottom{
+        padding-bottom: 30rem;
+    }
 }
    
   /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -391,6 +401,12 @@ body {
     .title {
         font-size:5rem;
     } 
+    #MainPicture .padding-top{
+        padding-top: 30rem;
+    }
+    #MainPicture .padding-bottom{
+        padding-bottom: 30rem;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -398,13 +414,22 @@ body {
     .title {
         font-size:5rem;
     } 
+    #MainPicture .padding-top{
+        padding-top: 30rem;
+    }
+    #MainPicture .padding-bottom{
+        padding-bottom: 30rem;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
-    .title {
-        font-size:5rem;
-    } 
+    #MainPicture .padding-top{
+        padding-top: 50rem;
+    }
+    #MainPicture .padding-bottom{
+        padding-bottom: 50rem;
+    }
 }
 .sub-text{
     font-size: 20px;
@@ -489,11 +514,13 @@ body {
     width: 100%;
 }
 .padding-bottom{
+    padding-bottom: 15rem;
+}
+#MainPicture .padding-bottom h1{
     padding-bottom: 5rem;
 }
 .padding-top{
-    height: 20rem;
-    padding-top: 10rem;
+    padding-top: 15rem;
 }
 
 
@@ -592,4 +619,8 @@ vertical-align: middle;
 }
 .bold {
     font-weight: bold;
+}
+.min-height{
+    height: 100rem;
+    min-height: 10rem;
 }
