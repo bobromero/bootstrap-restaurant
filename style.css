@@ -9,6 +9,7 @@ body {
     font-family: "Quicksand", sans-serif;
     font-size: 62.5%;
     font-size: 10px;
+    position: relative;
 }
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
@@ -603,6 +604,9 @@ hr .sub-divider{
 #Statistics .padding-bottom{
     padding-bottom: 1rem;
 }
+#menu .padding-bottom{
+    padding-bottom: 8rem;
+}
 #Statistics section div{
     max-width: 20rem;
     overflow: hidden;
@@ -620,7 +624,20 @@ vertical-align: middle;
 .bold {
     font-weight: bold;
 }
+#menu .bold-list {
+    font-weight: bold;
+    font-size: 3rem;
+}
 .min-height{
     height: 100rem;
     min-height: 10rem;
 }
+.bg-dark{
+    background-color: #f4623a !important;
+}
+.scroll{
+    color: #f54d1f !important;
+}
+#menu ul{
+  list-style: square;
+ }
