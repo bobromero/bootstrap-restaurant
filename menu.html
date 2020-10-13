@@ -19,7 +19,7 @@
         <link href="style.css" rel="stylesheet" />
     </head>
     <body>
-        <nav class="nav">
+        <nav class="nav affix">
             <div class="container">
                 <span id = "navTrigger" class="navTrigger">
                     <i></i>
@@ -34,118 +34,37 @@
                 <div id="mainListDiv" class="main_list ">
                     <ul class="navlinks ">
                         <li><a href = "menu.html">Menu</a></li>
-                        <li><a href = "index.html">Statistics</a></li>
-                        <li><a href = "index.html">Images</a></li>
-                        <li><a href = "index.html">Chefs</a></li>
-                        <li><a href = "index.html">Contact</a></li>
+                        <li><a href = "index.html#Statistics">Statistics</a></li>
+                        <li><a href = "index.html#Images">Images</a></li>
+                        <li><a href = "index.html#chefs">Chefs</a></li>
+                        <li><a href = "index.html#contact">Contact</a></li>
                     </ul>
                 </div>
                 
             </div>
         </nav>
 
-        <!-- main-->
-        <section class="Main-picture" id = "MainPicture">
-            <div class="container-fluid h-100" >
-                <div class="row d-flex justify-content-center align-items-center h-100 position-relative min-height padding-top padding-bottom" >
-                    <div class="col-lg-6 text-center h-50 w-100">
-                        <header class = "text-center col-12 " >
-                            <h1 class = "text-uppercase text-white title padding-bottom">Andy and Rob's Italian Restaurant</h1>
-                        </header>
-                        <div class="buffer"></div>
-                        <section class = "text-center col-12">
-                            <h1 class = "text-uppercase sub-text bold">The finest Italian food in Miami!</h1>
-                            <hr class = "main-divider">
-                            <a href="#reservations" class="btn btn-primary btn-xl" role="button">Order Now</a>
-                            
-                        </section>
-                        
-                    </div>
-                </div>
-            </div>
             
 
             
         </section>
-        
-        <section class="bg-white" id="menu">
+
+        <section id="menu">
             <div class="container-fluid" >
-                <div class="row d-flex justify-content-center align-items-center h-100 padding position-relative">
 
-                    
-                    <div class="row">
-                        <header class = "text-center col-12 " >
-                            <h1 class = "text-uppercase title pb-5 text-center bold">Menu</h1>
-                        </header>
-                        <div class="col d-flex justify-content-center p-5 ">
-                            <div class = "col ">
-                                <div class="row d-flex justify-content-center position-relative">
-                                    <i class="fas fa-pizza-slice fa-7x icon-color padding-bottom h-50"></i>
-                                </div>
-                                <div class="row d-flex">
-                                  <h1 class = "icon-text bold-list">• Cheese</h1>
-                                  <h1 class = "icon-text bold-list">• Neapolitan</h1>
-                                  <h1 class = "icon-text bold-list">• Sicilian</h1>
-                                </div>
-                                
+                    <div class="row ">
+                        <div class = "col">
+                            <div class="row ">
+                                <img src="ANdy and robs.png" class="img-fluid" width="100%" height="100%" alt="Head Chefs">
                             </div>
-                        </div>
-                        
-                        <div class="col d-flex justify-content-center p-5">
-                            <div class = "col ">
-                                <div class = "row d-flex justify-content-center align-items-center">
-                                    <i class="fas fa-utensils fa-7x icon-color padding-bottom h-50"></i>
-                                </div>
-                                <div class = "row d-flex justify-content-center align-items-center">
-                                  <h1 class = "icon-text bold-list">• Fusilli  </h1>
-                                  <h1 class = "icon-text bold-list">• Linguine</h1>
-                                  <h1 class = "icon-text bold-list">• Fettuccine</h1>
-                                </div>
-                                <img src="https://www.lux-review.com/wp-content/uploads/2019/12/negroni.jpg" class="img-fluid" width="100%" height="100%" alt="drink">
-                                
-                            </div>
+                            
                         </div>
 
 
-                        <div class="col d-flex justify-content-center p-5">
-                            <div class = "col ">
-                                <div class = "row d-flex justify-content-center align-items-center">
-                                    <i class = "fas fa-wine-glass-alt fa-7x icon-color padding-bottom h-50"></i>
-                                </div>
-                                <div class = "row d-flex ">
-                                  <h1 class = "icon-text bold-list">• Limoncello</h1>
-                                  <h1 class = "icon-text bold-list">• Sambuca</h1>
-                                  <h1 class = "icon-text bold-list">• Negroni</h1>
-                                </div>
-                                <img src="https://www.lux-review.com/wp-content/uploads/2019/12/negroni.jpg" class="img-fluid" width="100%" height="100%" alt="drink">
-                                
-                            </div>
-                        </div>
-
-                        <div class="col d-flex justify-content-center  p-5">
-                            <div class = "col ">
-                                <div class="row d-flex justify-content-center align-items-center">
-                                    <i class="fas fa-guitar fa-7x icon-color padding-bottom h-50"></i>
-                                </div>
-                                <div class="row d-flex">
-                                  <h1 class = "icon-text bold-list">• Zeppole</h1>
-                                  <h1 class = "icon-text bold-list">• Cannoli</h1>
-                                  <h1 class = "icon-text bold-list">• Tiramisu</h1>
-                                </div>
-                                
-                                
-                            </div>
-                        </div>
                     </div>
-
-                    
-
-
-
-                </div>
+                
             </div>
-        </section>
-
+        </s>
 
        
 
@@ -154,19 +73,6 @@
         <script src="js/scripts.js"></script>
 
         <!-- Function used to shrink nav bar removing paddings and adding black background -->
-        <script>
-            $(window).scroll(function() {
-                if ($(document).scrollTop() > 50) {
-                    $('.nav').addClass('affix');
-                    $('.navTrigger').addClass('affix');
-                    console.log("OK");
-                } else {
-                    $('.nav').removeClass('affix');
-                    $('.navTrigger').removeClass('affix');
-                }
-                
-            });
-        </script>
         <script src="script.js"></script>
     </body>
 </html>
